@@ -1,17 +1,24 @@
 .main-nav {
-
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
 }
 
 .left-nav {
 
   > ul {
     > li {
-
+      font-family: serif;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin: 5px;
     }
   }
 
@@ -25,7 +32,10 @@
   > ul {
 
     > li {
-  
+      margin: 5px;
+      font-family: serif;
+      font-size: 14px;
+      text-transform: uppercase;
     }
 
     > li:last-of-type {
@@ -40,5 +50,15 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: lightgray;
 }
+
+.right-nav > ul > li:hover {
+  background-color: rgba(20, 20, 228, 0.379);
+  border: 1px solid darkblue;
+  color: white;
+  font-weight: bolder;
+  padding: 3px;
+}
+
+

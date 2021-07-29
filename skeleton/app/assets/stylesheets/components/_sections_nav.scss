@@ -1,0 +1,23 @@
+.sections{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    padding: 10px;
+}
+
+.section li:hover:not(:last-child){
+    background-color: gray;
+}
+
+.section li:last-child:hover{
+    text-decoration: underline;
+}
+
+

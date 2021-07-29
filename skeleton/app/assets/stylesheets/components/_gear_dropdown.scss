@@ -1,1 +1,40 @@
 // Use the gear_dropdown.png screenshot as a style guide
+
+
+.gear-dropdown{
+    display: none;
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+    text-decoration: none;
+    
+}
+
+.editions{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+ 
+}
+
+.help{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.gear-dropdown .editions li:hover{
+        background-color: lightgray;
+        // border: 2px solid black;
+}
+
+#gear-btn:hover{
+    .gear-dropdown{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        font-weight: lighter;
+    }
+}
+

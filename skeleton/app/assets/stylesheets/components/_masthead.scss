@@ -9,12 +9,12 @@
 .language-nav {
 	position: absolute;
 	top: -15px;
-	left: calc(50% - (177.78px/2));
+	margin: 0 auto;
 	background: white;
 	border: 1px solid $light-gray;
 	border-bottom: none;
 	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
+	// border-top-right-radius: 3px;
 
 	a {
 		margin: 0 5px;
@@ -26,6 +26,10 @@
 
 	ul {
 		display: flex;
+	}
+
+	li:first-child {
+		font-weight: bold;
 	}
 }
 
